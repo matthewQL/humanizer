@@ -1,0 +1,22 @@
+{
+  "name": "humanizer",
+  "description": "Single-plugin marketplace hosting the humanizer skill.",
+  "owner": {
+    "name": "matthewQL"
+  },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "source": "./",
+      "description": "Remove signs of AI-generated writing from text. Detects and rewrites 29 patterns from Wikipedia's \"Signs of AI writing\" guide.",
+      "author": {
+        "name": "matthewQL"
+      },
+      "homepage": "https://github.com/matthewQL/humanizer",
+      "repository": "https://github.com/matthewQL/humanizer",
+      "license": "MIT",
+      "keywords": ["writing", "editing", "ai-detection", "humanize", "prose"],
+      "category": "writing"
+    }
+  ]
+}

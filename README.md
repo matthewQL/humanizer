@@ -4,43 +4,67 @@ A skill for Claude Code and OpenCode that removes signs of AI-generated writing 
 
 ## Installation
 
-### Claude Code
+### Claude Code (plugin — recommended)
 
-Clone directly into Claude Code's skills directory:
+This repo doubles as a single-plugin marketplace. Inside Claude Code:
 
-```bash
-mkdir -p ~/.claude/skills
-git clone https://github.com/blader/humanizer.git ~/.claude/skills/humanizer
+```
+/plugin marketplace add matthewQL/humanizer
+/plugin install humanizer@humanizer
 ```
 
-Or copy the skill file manually if you already have this repo cloned:
+Then invoke it with the namespaced slash command:
+
+```
+/humanizer:humanizer
+
+[paste your text here]
+```
+
+Run `/plugin marketplace update humanizer` to pick up new versions.
+
+### Claude Code (standalone clone)
+
+If you prefer the pre-plugin layout, copy just the skill file into Claude Code's skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills/humanizer
-cp SKILL.md ~/.claude/skills/humanizer/
+curl -fsSL https://raw.githubusercontent.com/matthewQL/humanizer/main/skills/humanizer/SKILL.md \
+  -o ~/.claude/skills/humanizer/SKILL.md
 ```
+
+Or from a local clone:
+
+```bash
+mkdir -p ~/.claude/skills/humanizer
+cp skills/humanizer/SKILL.md ~/.claude/skills/humanizer/
+```
+
+Invoke with `/humanizer` (no namespace prefix in standalone mode).
 
 ### OpenCode
 
-Clone directly into OpenCode's skills directory:
-
-```bash
-mkdir -p ~/.config/opencode/skills
-git clone https://github.com/blader/humanizer.git ~/.config/opencode/skills/humanizer
-```
-
-Or copy the skill file manually if you already have this repo cloned:
-
 ```bash
 mkdir -p ~/.config/opencode/skills/humanizer
-cp SKILL.md ~/.config/opencode/skills/humanizer/
+curl -fsSL https://raw.githubusercontent.com/matthewQL/humanizer/main/skills/humanizer/SKILL.md \
+  -o ~/.config/opencode/skills/humanizer/SKILL.md
 ```
 
-> **Note:** OpenCode also scans `~/.claude/skills/` for compatibility, so a single clone into `~/.claude/skills/humanizer/` works for both tools.
+> **Note:** OpenCode also scans `~/.claude/skills/` for compatibility, so a single install into `~/.claude/skills/humanizer/` works for both tools.
 
 ## Usage
 
 ### Claude Code
+
+Plugin install:
+
+```
+/humanizer:humanizer
+
+[paste your text here]
+```
+
+Standalone install:
 
 ```
 /humanizer
@@ -64,7 +88,7 @@ Please humanize this text: [your text]
 
 ### Voice Calibration
 
-To match your personal writing style, provide a sample of your own writing:
+To match your personal writing style, provide a sample of your own writing (substitute `/humanizer:humanizer` if you installed via the plugin):
 
 ```
 /humanizer
