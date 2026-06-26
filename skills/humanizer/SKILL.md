@@ -55,6 +55,93 @@ If the user provides a writing sample (their own previous writing), analyze it b
 - Inline: "Humanize this text. Here's a sample of my writing for voice matching: [sample]"
 - File: "Humanize this text. Use my writing style from [file path] as a reference."
 
+## STRUCTURE AND NARRATIVE
+
+This operates above the sentence level. The CONTENT PATTERNS sections fix
+how prose sounds; this fixes the shape of the argument underneath it. Text
+can be free of every AI-ism and still fail because the ideas arrive in
+discovery order, never resolve to a point, or paper over the gaps with
+"however" and "moreover." Run this pass FIRST — before the sentence-level
+work — because there is no point polishing a paragraph you are about to
+move or cut.
+
+### How to fix structure
+
+**Find the point before touching the prose.** State the central claim in
+one sentence. If you cannot, the problem is thinking, not wording — flag it
+rather than rewriting around the void. Once the claim exists, every
+paragraph has to audition: it either supports the claim or handles an
+objection to it. Cut what does neither.
+
+**Reorder by the reader's questions, not the writer's discovery.** First
+drafts present ideas in the order they occurred to the author. Readers need
+the order that builds understanding: each paragraph should answer the
+question the previous one raises. If two paragraphs feel disconnected, the
+fix is almost always sequence, not a transition word.
+
+**One job per paragraph.** When a paragraph carries two ideas, that seam is
+usually where it should split. Group points by type — keep objections with
+objections, evidence with evidence — so the reader isn't switching modes
+mid-paragraph.
+
+**Let sequence carry the logic.** Strong flow comes from ordering, not
+connectives. Resist the urge to bolt "however / moreover / furthermore"
+onto disconnected ideas. Reserve an explicit signpost for the one or two
+pivots that genuinely turn the argument; everywhere else, if the order is
+right, the connection is already obvious.
+
+**Resolve; don't trail off.** Weak drafts end on "there are pros and cons
+to consider" — which is where thinking should have started. End on the
+writer's terms: answer the strongest objection last so the piece closes
+with the claim reinforced, not dissolved into both-sides mush.
+
+**Concede the real objection.** Pretending the downside doesn't exist reads
+as either naive or dishonest. Name it, then answer it. "Harder is not
+impossible" persuades more than ignoring that it's harder.
+
+**But do NOT over-engineer it.** This is where structure advice turns
+against the rest of this skill. Mechanically perfect structure — every
+paragraph the same shape, every point ranked, every transition load-bearing
+— reads as machine-assembled, which is the exact tell we are removing
+elsewhere. Aim for a spine, not a scaffold. Leave one tangent that earns
+its place. Let a paragraph run short because that's where the thought ended.
+A real argument has a little asymmetry; a generated one is suspiciously
+balanced.
+
+### Before (discovery order, no point, weak connectives)
+
+> There are a lot of considerations around remote work and many companies
+> are grappling with this. Studies show productivity can increase. Office
+> space is expensive and money is spent on real estate that sits empty.
+> People save time not commuting, which they value, though some miss the
+> social aspect and collaboration can suffer, and onboarding is harder
+> remotely. Flexibility is something employees increasingly expect,
+> especially younger ones, and companies that don't offer it may struggle
+> to hire. So there are pros and cons to consider.
+
+Diagnosis: no claim (it ends where it should have begun), ideas in the order
+they occurred to the writer, one sentence doing three jobs, and "also /
+though / so" substituting for real sequence.
+
+### After (claim leads, reader-question order, objection answered last)
+
+> Companies that don't offer remote flexibility will struggle to compete for
+> talent, and the trade-offs are smaller than they look. The clearest benefit
+> is hiring: flexibility is now a baseline expectation for many candidates,
+> so a strict in-office policy quietly shrinks the applicant pool. Cost
+> reinforces this — empty real estate is expensive, and shrinking the office
+> frees money for things that actually retain people. The real objections are
+> collaboration and onboarding, which genuinely are harder remotely. But
+> harder isn't impossible; those are problems to design around, not reasons
+> to surrender a hiring advantage.
+
+What changed: the claim leads so every sentence has a visible job; order runs
+strongest reason → reinforcing reason → objection → rebuttal; the three-jobs
+sentence is broken apart and the two objections are grouped because they're
+the same type; logic rides on sequence rather than connectives, with one real
+signpost ("But") reserved for the actual pivot; and the objection is conceded
+honestly instead of hidden.
+
 
 ## PERSONALITY AND SOUL
 
